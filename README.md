@@ -26,3 +26,12 @@ command + shift + p
 
 # Github Readme Syntax
 > [GitHub ReadeMe Template](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+
+
+# git_ignore command
+Remember to commit everything you've changed before you do this!
+```
+git rm -rf --cached .
+git add .
+```
+This removes all files from the repository and adds them back (this time respecting the rules in your .gitignore).
